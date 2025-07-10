@@ -28,6 +28,7 @@ response = client.chat.completions.create(
     messages=in_msg,
 )
 
+print("Response received. Writing to response.md...")
 # saves response to markdown file to allow for formatting
 with open("response.md", "w") as f:
     f.write(response.choices[0].message.content)
