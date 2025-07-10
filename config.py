@@ -1,0 +1,2 @@
+files_to_upload = ["../Coursera fullstack/a 2/CartSlice.jsx", "../Coursera fullstack/a 2/ProductList.jsx"]
+text_msg = "You are a senior software engineer. Reading the attached code, " # add code issue to the end
